@@ -7,16 +7,34 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  spec:
     runs-on: ubuntu-latest
-
     container:
       image: crystallang/crystal
-
     steps:
     - uses: actions/checkout@v4
     - name: Install dependencies
       run: shards install
     - name: Run tests
       run: crystal spec
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: crystallang/crystal
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: shards install
+      - name: Run tests
+        run: shards build
+  formatter:
+    runs-on: ubuntu-latest
+    container:
+      image: crystallang/crystal
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: shards install
+      - name: Run tests
+        run: crystal tool format src/ --check
+
