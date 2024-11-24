@@ -2,7 +2,7 @@
 module The::Phoque
   VERSION = "0.1.0"
 
-  def run!
+  def self.run!
     puts "Hello, World!"
   end
 end
