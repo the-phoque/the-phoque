@@ -1,6 +1,8 @@
 # the-phoque
 
-The Phoque is terminal command suite for fixing mistakes or errors. It's using <https://en.wikipedia.org/wiki/Script_(Unix)> to record your session and when you ask it, it knows what went wrong and will try to fix it using Artificial Intelligence in form of Large Language Model. 
+The Phoque is terminal command suite for fixing mistakes or errors. It's using <https://en.wikipedia.org/wiki/Script_(Unix)> to record your session and when you ask it, it knows what went wrong and will try to fix it using Artificial Intelligence in form of Large Language Model.
+
+This tool is inspired by <https://github.com/nvbn/thefuck> and name is a play on words. The word "phoque" is French for "seal" and is pronounced IPA: /fɔk/.
 
 ## Installation
 
@@ -9,9 +11,17 @@ TODO: Write installation instructions here
 ## Usage
 
 1. Add `eval $(thephoque init)` to your shell profile file (e.g. `~/.bashrc` or `~/.zshrc`).
-2. Do some stuff like `git commti -n "Fix typo"`.
-3. Run `thephoque fix` to fix your mistake.
-4. (Optional) Ask `thephoque` to help you before you make a mistake: `thephoque help "How to commit changes?"`.
+2. (One time) Configure the-phoque: `thephoque config init`.
+3. Do some stuff like `git commti -n "Fix typo"`.
+4. Run `thephoque fix` to fix your mistake.
+5. (Optional) Ask `thephoque` to help you before you make a mistake: `thephoque help "How to commit changes?"`.
+
+## Commands
+
+- `thephoque init` - Initialize the-phoque.
+- `thephoque fix` - Fix the last mistake.
+- `thephoque help` - Ask the-phoque for help.
+- `thephoque config` - Configure the-phoque.
 
 ## Development
 
