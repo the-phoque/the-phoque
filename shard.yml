@@ -1,0 +1,13 @@
+name: the-phoque
+version: 0.1.0
+
+authors:
+  - Patryk Ptasinski <patryk@ipepe.pl>
+
+targets:
+  the-phoque:
+    main: src/the-phoque.cr
+
+crystal: '>= 1.11.2'
+
+license: MIT
