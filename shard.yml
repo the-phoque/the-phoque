@@ -6,7 +6,7 @@ authors:
 
 targets:
   the-phoque:
-    main: src/the-phoque.cr
+    main: src/the-phoque-cli.cr
 
 crystal: '>= 1.11.2'
 
