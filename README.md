@@ -2,7 +2,7 @@
 
 The Phoque is terminal command suite for fixing mistakes or errors. It's using <https://en.wikipedia.org/wiki/Script_(Unix)> to record your session and when you ask it, it knows what went wrong and will try to fix it using Artificial Intelligence in form of Large Language Model.
 
-This tool is inspired by <https://github.com/nvbn/thefuck> and name is a play on words. The word "phoque" is French for "seal" and is pronounced IPA: /fɔk/.
+This tool is inspired by <https://github.com/nvbn/thefuck> and name is a play on words. The word [phoque](https://en.wiktionary.org/wiki/phoque) is French for "seal" and is pronounced IPA: /fɔk/.
 
 ## Installation
 
