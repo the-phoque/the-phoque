@@ -1,6 +1,6 @@
 # the-phoque
 
-TODO: Write a description here
+The Phoque is terminal command suite for fixing mistakes or errors. It's using <https://en.wikipedia.org/wiki/Script_(Unix)> to record your session and when you ask it, it knows what went wrong and will try to fix it using Artificial Intelligence in form of Large Language Model. 
 
 ## Installation
 
@@ -8,7 +8,10 @@ TODO: Write installation instructions here
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Add `eval $(thephoque init)` to your shell profile file (e.g. `~/.bashrc` or `~/.zshrc`).
+2. Do some stuff like `git commti -n "Fix typo"`.
+3. Run `thephoque fix` to fix your mistake.
+4. (Optional) Ask `thephoque` to help you before you make a mistake: `thephoque help "How to commit changes?"`.
 
 ## Development
 
@@ -16,7 +19,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/the-phoque/fork>)
+1. Fork it (<https://github.com/the-phoque/the-phoque/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -24,4 +27,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [Patryk Ptasinski](https://github.com/your-github-user) - creator and maintainer
+- [Patryk Ptasinski](https://github.com/ipepe) - creator and maintainer
